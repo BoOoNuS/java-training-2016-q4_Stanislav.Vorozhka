@@ -1,0 +1,12 @@
+<Context>
+
+  <Resource name="jdbc/ST4DB"
+  			auth="Container" 
+  			type="javax.sql.DataSource"
+			maxActive="100" maxIdle="30" maxWait="10000"
+			username="user" password="user"
+			driverClassName="org.postgresql.Driver"
+			defaultAutoCommit="false"
+			url="jdbc:postgresql://localhost:5432/epam_final"/>
+			
+</Context>

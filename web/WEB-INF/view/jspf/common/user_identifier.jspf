@@ -1,0 +1,5 @@
+<fmt:setLocale value="${sessionScope.language}"/>
+<fmt:setBundle basename="locale"/>
+
+<%-- User identifier --%>
+<li><a><fmt:message key="page.lang.user" /> - ${sessionScope.user.fullName}</a></li>

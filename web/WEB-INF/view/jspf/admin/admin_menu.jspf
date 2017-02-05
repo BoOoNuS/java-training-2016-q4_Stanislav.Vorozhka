@@ -1,0 +1,11 @@
+<fmt:setLocale value="${sessionScope.language}"/>
+<fmt:setBundle basename="locale"/>
+
+<%-- Admin menu --%>
+<li><a href="/controller?command=toMain"><fmt:message key="page.lang.main" /></a></li>
+<li><a href="/controller?command=toStation"><fmt:message key="page.lang.station" /></a></li>
+<li><a href="/controller?command=toRoute"><fmt:message key="page.lang.route" /></a></li>
+<li><a class="cursor_default"><fmt:message key="page.lang.admin"/> - ${sessionScope.user.fullName}</a></li>
+
+
+

@@ -1,0 +1,7 @@
+<fmt:setLocale value="${sessionScope.language}"/>
+<fmt:setBundle basename="locale"/>
+
+<%-- Locale chooser --%>
+<li><a href="/controller?command=setLanguage&language=Russian">Russian</a></li>
+<li><a href="/controller?command=setLanguage&language=English">English</a></li>
+

@@ -1,0 +1,4 @@
+<fmt:setLocale value="${sessionScope.language}"/>
+<fmt:setBundle basename="locale"/>
+
+<li><a href="/controller?command=logout"><fmt:message key="page.lang.logout" /></a></li>
